@@ -33,7 +33,7 @@ export default function SignupPage() {
     setLoading(true)
     await new Promise(r => setTimeout(r, 1400))
     login({ id: Date.now().toString(), name, email })
-    navigate('/dashboard')
+    navigate('/onboarding')
   }
 
   return (
