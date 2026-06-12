@@ -27,4 +27,19 @@ export const CATEGORY_COLORS: Record<string, string> = {
   'Other': '#64748b',
 }
 
+export const CATEGORY_EMOJI: Record<string, string> = {
+  'Food & Dining': '🍔',
+  'Transport': '🚗',
+  'Subscriptions': '📱',
+  'Snacks': '☕',
+  'Utilities': '⚡',
+  'Groceries': '🛒',
+  'Income': '💰',
+  'Shopping': '🛍️',
+  'Health': '💊',
+  'Housing': '🏠',
+  'Entertainment': '🎬',
+  'Other': '💳',
+}
+
 export const LEAK_CATEGORIES = ['Food & Dining', 'Snacks', 'Subscriptions', 'Shopping', 'Entertainment']

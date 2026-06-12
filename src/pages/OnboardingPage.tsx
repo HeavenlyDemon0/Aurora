@@ -19,7 +19,7 @@ export default function OnboardingPage() {
   const handleFinish = () => {
     setIncome(Number(income))
     setSavingsGoal(Number(goal))
-    navigate('/dashboard')
+    useFinanceStore.getState().enableDemo(); navigate('/dashboard')
   }
 
   return (
